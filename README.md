@@ -24,5 +24,15 @@ Hibernate XML **configuration** file to establish connection to MySQL DB
 
 ## Dependencies
 
+CREATE TABLE USER (
+ USER_ID INT (5) NOT NULL,
+ USERNAME VARCHAR (20) NOT NULL,
+ CREATED_BY VARCHAR (20) NOT NULL,
+ CREATED_DATE DATE NOT NULL,
+ PRIMARY KEY ( USER_ID )
+)
+
+## Dependencies
+
 - hibernate-core
 - mysql-connector-java
